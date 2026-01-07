@@ -178,7 +178,6 @@ export function registerTools(server: McpServer): void {
   registerInsightsTools(server);
 
   registerPriceTools(server);
-  registerPriceTools(server);
 
   logger.info("All OpenFoodFacts MCP tools registered successfully");
 }
